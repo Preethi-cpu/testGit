@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "9ab516cb-8b71-409d-b64c-79bd93316c8b",
+		"name": "ResReq.In",
+		"description": "Resreq dummy website for API testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET methods",
+			"item": [
+				{
+					"name": "Get the users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://reqres.in/api/users?first_name=George",
+							"protocol": "http",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "first_name",
+									"value": "George"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST methods",
+			"item": [
+				{
+					"name": "Post a new user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT methods",
+			"item": []
+		},
+		{
+			"name": "DELETE methods",
+			"item": [],
+			"description": "Deletes the resource specified in the body."
+		},
+		{
+			"name": "POST methods",
+			"item": []
+		}
+	]
+}
